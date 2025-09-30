@@ -5,8 +5,15 @@ import java.util.Scanner;
 
 public class Merge_Sorted_Array {
     public static void sorted_Array(int[] nums1, int m, int[] nums2, int n){
-        System.arraycopy(nums2, 0, nums1, m, n);
-        Arrays.sort(nums1);
+        //System.arraycopy(nums2, 0, nums1, m, n);
+        //Arrays.sort(nums1);
+
+        int c = m+n;
+        int arr[] = new int[c];
+        for(int i=0; i<m; i++){
+            arr[i] = nums1[i];
+        }
+        for(int i = m; i<m+)
     }
 
     public static void main(String args[]){

@@ -13,7 +13,7 @@ public class Merge_Sorted_Array {
         for(int i=0; i<m; i++){
             arr[i] = nums1[i];
         }
-        for(int i = m; i<m+)
+//        for(int i = m; i<m+)
     }
 
     public static void main(String args[]){
